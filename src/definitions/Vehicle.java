@@ -10,4 +10,5 @@ package definitions;
  * This class will define a Vehicle object.
  * */
 public class Vehicle {
+
 }
