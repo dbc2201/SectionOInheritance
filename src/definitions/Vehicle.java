@@ -12,3 +12,5 @@ package definitions;
 public class Vehicle {
 
 }
+// SuperClass/ParentClass: is the class whose properties can be inherited.
+// In our example, the Vehicle.java class is the super class.
