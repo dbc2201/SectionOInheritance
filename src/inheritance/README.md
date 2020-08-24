@@ -20,3 +20,12 @@ When we have the same signature of the method, but
 
 It can be done in the same class.  
 It can be done in a pair of parent class and child class.
+
+### Method Overriding:
+We can change the behaviour of a method of the parent class
+by overriding it in the child class. 
+
+1. The signature of the method should be exactly same, including the
+parameter list.
+2. We can only override a method of the parent class, inside a 
+child class. 

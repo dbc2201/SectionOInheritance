@@ -14,9 +14,12 @@ import definitions.Vehicle;
 public class Main {
     public static void main(String[] args) {
         Vehicle myVehicle = new Vehicle();
-        myVehicle.commute("Delhi");
+        myVehicle.commute(); // this will call the commute() method from Vehicle class.
         // Since, FourWheeler is the child of Vehicle, it can access the commute() method.
         FourWheeler myFourWheeler = new FourWheeler();
-        myFourWheeler.commute("Delhi", "Goa");
+        myFourWheeler.commute(); // this will call the commute() method from FourWheeler class.
+        // We have two classes that have the commute() method
+        // Vehicle      --> commute() : commuting...
+        // FourWheeler  --> commute() : FourWheeler is commuting...
     }
 }

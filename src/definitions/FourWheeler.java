@@ -13,6 +13,11 @@ public class FourWheeler extends Vehicle {
         System.out.println("Commuting from " + source + " to " + destination + "...");
     }
 
+    // overridden commute() method
+    public void commute() {
+        System.out.println("FourWheeler is commuting...");
+    }
+
     public void move() {
         commute();
     }
