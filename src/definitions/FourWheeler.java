@@ -8,7 +8,16 @@ package definitions;
 
 public class FourWheeler extends Vehicle {
 
+    public void move() {
+        commute();
+    }
+
 }
+
+// Hierarchy
+// Vehicle --> (FourWheeler && Car)
+// super   --> sub
+// parent  --> child(ren), simple inheritance
 
 // FourWheeler IS A TYPE of Vehicle.
 // SubClass/ChildClass: is the class that will inherit the data and behaviour.
