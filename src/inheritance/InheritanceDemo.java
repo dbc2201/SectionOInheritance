@@ -8,6 +8,20 @@ package inheritance;
 
 public class InheritanceDemo {
     // 1. What is Inheritance?
+
+    // Examples of Inheritance in real-life: An attribute, quality, trait, behaviour or property that is acquired by an
+    // entity from another entity related to it.
+    // 1. Your own physical appearance, i.e your physical attributes
+    // height, color of skin, hair color, color of your eyes ... etc.
+    // Inherited by YOU from YOUR PARENTS.
+    // 2. The monetary inheritance, i.e money, a house, a car, some piece of land ... etc.
+    // can be Inherited by YOU from YOUR PARENTS, when they wish to choose.
+
+    // In Object-Oriented Programming, Inheritance is the mechanism by which a class can acquire
+    // the properties (fields/variables) and methods of another class.
+    // Entity --> Class
+    // A Class (as an entity) will acquire the properties/methods of another entity (another class) related to it.
+
     // 2. How we can use Inheritance to re-use the code/software that is already developed and tested.
     // 3. Observe when the 'extends' keyword is used.
     // 4. We will learn about a `super` class and a `sub` class.
