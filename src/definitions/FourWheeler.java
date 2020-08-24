@@ -6,7 +6,7 @@
  * */
 package definitions;
 
-public class FourWheeler {
+public class FourWheeler extends Vehicle {
 }
 
 // FourWheeler IS A TYPE of Vehicle.
