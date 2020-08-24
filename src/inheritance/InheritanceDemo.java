@@ -23,6 +23,13 @@ public class InheritanceDemo {
     // A Class (as an entity) will acquire the properties/methods of another entity (another class) related to it.
 
     // 2. How we can use Inheritance to re-use the code/software that is already developed and tested.
+
+    // Software for re-using, can be:
+    // 1. The Java SDK that is already developed and tested by the Java Developers.
+    // 2. A software/program/code that is written by some developer(s) as an Open-Source Software.
+    // Open-Source Software: We can take a look at the actual source code of the software
+    // and we might be allowed to change the software.
+
     // 3. Observe when the 'extends' keyword is used.
     // 4. We will learn about a `super` class and a `sub` class.
     // 5. How we can access the members of the super class from the sub class.
