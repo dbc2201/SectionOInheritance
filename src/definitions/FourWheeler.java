@@ -14,6 +14,8 @@ public class FourWheeler extends Vehicle {
     }
 
     // overridden commute() method
+    @Override // to check the signature of the method we want to override.
+    // if the signature is wrong, the compiler will give us an error.
     public void commute() {
         System.out.println("FourWheeler is commuting...");
     }

@@ -7,7 +7,10 @@
 package definitions;
 
 public class Car extends FourWheeler {
-
+    @Override // annotation
+    public void commute() {
+        System.out.println("Car is commuting...");
+    }
 }
 // The Car IS A TYPE of Vehicle, AND the Car IS ALSO A TYPE of FourWheeler.
 // Java only allows us to extend a single class!
