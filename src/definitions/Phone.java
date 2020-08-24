@@ -16,4 +16,6 @@ public class Phone {
     public void setOwnContactNumber(long ownContactNumber) {
         this.ownContactNumber = ownContactNumber;
     }
+
+    /* ... */
 }
