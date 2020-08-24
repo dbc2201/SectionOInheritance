@@ -9,6 +9,10 @@
 Multiple Inheritance is not allowed in Java.  
 C/C++.
 
+## Types of Polymorphism  
+1. Method Overloading.  
+2. Method Overriding.
+
 ### Method Overloading:
 When we have the same signature of the method, but
 1. different number of parameters.  
