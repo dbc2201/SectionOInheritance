@@ -8,6 +8,11 @@ package definitions;
 
 public class FourWheeler extends Vehicle {
 
+    // overloaded commute() method
+    public void commute(String source, String destination) {
+        System.out.println("Commuting from " + source + " to " + destination + "...");
+    }
+
     public void move() {
         commute();
     }

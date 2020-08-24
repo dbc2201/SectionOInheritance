@@ -6,15 +6,17 @@
  * */
 package Main;
 
+import definitions.FourWheeler;
 import definitions.MobilePhone;
 import definitions.Phone;
+import definitions.Vehicle;
 
 public class Main {
     public static void main(String[] args) {
-        Phone myLandlinePhone = new Phone();
-        myLandlinePhone.setOwnContactNumber(1234567890L);
-        System.out.println(myLandlinePhone.getOwnContactNumber());
-        MobilePhone noika11 = new MobilePhone();
-        noika11.printOwnContactNumber();
+        Vehicle myVehicle = new Vehicle();
+        myVehicle.commute("Delhi");
+        // Since, FourWheeler is the child of Vehicle, it can access the commute() method.
+        FourWheeler myFourWheeler = new FourWheeler();
+        myFourWheeler.commute("Delhi", "Goa");
     }
 }

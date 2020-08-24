@@ -8,3 +8,11 @@
 
 Multiple Inheritance is not allowed in Java.  
 C/C++.
+
+### Method Overloading:
+When we have the same signature of the method, but
+1. different number of parameters.  
+2. different type of parameters.
+
+It can be done in the same class.  
+It can be done in a pair of parent class and child class.
