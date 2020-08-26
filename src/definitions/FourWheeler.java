@@ -8,6 +8,10 @@ package definitions;
 
 public class FourWheeler extends Vehicle {
 
+    public void ParkFourWheeler() {
+        stop();
+    }
+
     // overloaded commute() method
     public void commute(String source, String destination) {
         checkEngine();

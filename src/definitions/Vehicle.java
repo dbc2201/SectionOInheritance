@@ -11,6 +11,16 @@ package definitions;
  * */
 public class Vehicle {
 
+    // package-private
+    void stop() {
+        System.out.println("Vehicle is stopping...");
+    }
+
+    public void park() {
+        stop();
+        System.out.println("Vehicle is parked.");
+    }
+
     // public, private, protected, <default>
 
     // helper methods: created to help other methods of this class

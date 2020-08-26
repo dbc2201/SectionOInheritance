@@ -11,6 +11,9 @@ public class SportsCar extends Vehicle {
     public void race() {
         checkEngine();
     }
+    public void pitStop() {
+        // stop();
+    }
 }
 // A sports car is a type of vehicle.
 // A vehicle is a type of sports car.
