@@ -14,7 +14,7 @@ C/C++.
 1. Method Overloading.  
 2. Method Overriding.
 
-### Method Overloading: (Polymorphishm of methods on the basis of parameters)
+### Method Overloading: (Polymorphism of methods on the basis of parameters)
 When we have the same signature of the method, but
 1. different number of parameters.  
 2. different type of parameters.

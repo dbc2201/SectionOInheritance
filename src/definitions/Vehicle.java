@@ -12,6 +12,8 @@ package definitions;
 // outer class: outer classes cannot be private!
 public class Vehicle {
 
+    // Vehicle has an Engine.
+
     // inner class
     private class Engine {
 
