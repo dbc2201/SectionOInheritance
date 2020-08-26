@@ -11,7 +11,24 @@ package definitions;
  * */
 public class Vehicle {
 
+    // public, private, protected, <default>
+
+    // helper methods: created to help other methods of this class
+    private void startVehicle() {
+        checkEngine();
+        System.out.println("Vehicle is starting...");
+    }
+
+    private void testVehicleStart() {
+        startVehicle();
+    }
+
+    protected void checkEngine() {
+        System.out.println("Engine is ok for now.");
+    }
+
     public void commute() {
+        startVehicle();
         System.out.println("commuting...");
     }
 

@@ -6,10 +6,7 @@
  * */
 package Main;
 
-import definitions.FourWheeler;
-import definitions.MobilePhone;
-import definitions.Phone;
-import definitions.Vehicle;
+import definitions.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,5 +18,7 @@ public class Main {
         // We have two classes that have the commute() method
         // Vehicle      --> commute() : commuting...
         // FourWheeler  --> commute() : FourWheeler is commuting...
+        Car myCar = new Car();
+        myCar.commute();
     }
 }

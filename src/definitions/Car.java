@@ -9,6 +9,7 @@ package definitions;
 public class Car extends FourWheeler {
     @Override // annotation
     public void commute() {
+        checkEngine();
         System.out.println("Car is commuting...");
     }
 }

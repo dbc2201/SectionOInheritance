@@ -10,6 +10,7 @@ public class FourWheeler extends Vehicle {
 
     // overloaded commute() method
     public void commute(String source, String destination) {
+        checkEngine();
         System.out.println("Commuting from " + source + " to " + destination + "...");
     }
 
