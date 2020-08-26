@@ -6,7 +6,13 @@
  * */
 package definitions;
 
+// outer classes cannot be private or protected!
 public class FourWheeler extends Vehicle {
+
+    // inner classes can be private or protected.
+    protected class FuelTank {
+
+    }
 
     public void ParkFourWheeler() {
         stop();
