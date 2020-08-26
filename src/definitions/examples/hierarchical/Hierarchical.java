@@ -2,11 +2,11 @@
  *  User: Divyansh Bhardwaj (dbc2201)
  *  Date: 26/08/20
  *  Time: 3:17 PM
- *  File Name : MultipleInheritance.java
+ *  File Name : Hierarchical.java
  * */
-package definitions.examples;
+package definitions.examples.hierarchical;
 
-public class MultipleInheritance {
+public class Hierarchical {
     public static void main(String[] args) {
         D objectD = new D();
         objectD.methodD(4);
