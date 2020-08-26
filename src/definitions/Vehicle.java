@@ -9,7 +9,13 @@ package definitions;
 /**
  * This class will define a Vehicle object.
  * */
+// outer class: outer classes cannot be private!
 public class Vehicle {
+
+    // inner class
+    private class Engine {
+
+    }
 
     // package-private
     void stop() {
