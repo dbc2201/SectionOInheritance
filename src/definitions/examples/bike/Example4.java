@@ -24,5 +24,7 @@ class Bike {
         System.out.println("modelNumber = " + modelNumber);
         System.out.println("price = " + price);
     }
+}
+class SuperBike {
 
 }
