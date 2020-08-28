@@ -12,5 +12,6 @@ public class Example4 {
     }
 }
 class Bike {
-
+    private int modelNumber;
+    public double price;
 }
