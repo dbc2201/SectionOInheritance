@@ -20,7 +20,11 @@ class Vehicle {
     }
 }
 class Bus extends Vehicle {
-
+    // method overriding
+    @Override
+    void methodA() {
+        System.out.println("Bus class method.");
+    }
 }
 
 
