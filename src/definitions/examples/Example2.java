@@ -13,6 +13,10 @@ public class Example2 {
         objectA1.j = 4;
         objectA1.k = 5;
         objectA1.displayA();
+        objectB1.j = 10;
+        objectB1.k = 20;
+        objectB1.m = 30;
+        objectB1.displayB();
     }
 }
 class A1 {
