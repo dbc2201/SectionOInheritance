@@ -36,6 +36,18 @@ class Bike {
         return modelName;
     }
 }
+class SuperBike extends Bike {
+    int maxSpeed;
+
+    void displayMaxSpeed() {
+        System.out.println(this.maxSpeed);
+    }
+}
+
+
+
+
+
 
 
 
