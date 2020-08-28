@@ -29,4 +29,7 @@ class SuperBike extends Bike {
     public SuperBike(int modelNumber, double price) {
         super(modelNumber, price);
     }
+    public void displaySuperBikeInfo() {
+        super.displayBikeInfo();
+    }
 }
