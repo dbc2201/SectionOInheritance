@@ -17,3 +17,6 @@ class A1 {
         System.out.println("j = " + j + ", k = " + k);
     }
 }
+class B1 extends A1 {
+
+}
