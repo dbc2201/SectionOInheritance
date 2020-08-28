@@ -19,4 +19,7 @@ class A1 {
 }
 class B1 extends A1 {
     int m;
+    void displayB() {
+        System.out.println("j = " + j + ", k = " + k + ", m = " + m);
+    }
 }
