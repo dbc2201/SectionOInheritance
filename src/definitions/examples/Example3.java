@@ -13,10 +13,24 @@ public class Example3 {
 }
 class Bike {
     private int idNumber;
-    public String modelName;
+    private String modelName;
 
     public void setValues(int idNumber, String modelName) {
         this.idNumber = idNumber;
         this.modelName = modelName;
     }
+
+    public double price;
+
+    void displayBikeInformation() {
+        System.out.println("idNumber = " + idNumber);
+        System.out.println("modelName = " + modelName);
+        System.out.println("price = " + price);
+    }
 }
+
+
+
+
+
+
