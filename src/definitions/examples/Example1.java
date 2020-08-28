@@ -16,6 +16,6 @@ class Vehicle {
     float mileage;
 
     void methodA() {
-
+        System.out.println("Vehicle class method.");
     }
 }
