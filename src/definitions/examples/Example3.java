@@ -10,6 +10,8 @@ public class Example3 {
     public static void main(String[] args) {
         Bike myBike = new Bike();
         SuperBike mySuperBike = new SuperBike();
+        myBike.setValues(1, "Passion");
+        myBike.displayBikeInformation();
     }
 }
 class Bike {
