@@ -4,10 +4,13 @@
  *  Time: 3:29 PM
  *  File Name : Example4.java
  * */
-package definitions.examples;
+package definitions.examples.bike;
 
 public class Example4 {
     public static void main(String[] args) {
 
     }
+}
+class Bike {
+
 }
