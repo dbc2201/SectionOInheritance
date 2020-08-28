@@ -10,6 +10,9 @@ public class Example2 {
     public static void main(String[] args) {
         A1 objectA1 = new A1();
         B1 objectB1 = new B1();
+        objectA1.j = 4;
+        objectA1.k = 5;
+        objectA1.displayA();
     }
 }
 class A1 {
