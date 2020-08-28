@@ -12,6 +12,10 @@ public class Example3 {
         SuperBike mySuperBike = new SuperBike();
         myBike.setValues(1, "Passion");
         myBike.displayBikeInformation();
+        mySuperBike.price = 1_20_000.0;
+        mySuperBike.displayBikeInformation();
+        mySuperBike.setValues(2, "Bullet");
+        mySuperBike.displayBikeInformation();
     }
 }
 class Bike {
