@@ -20,4 +20,9 @@ class Bike {
         this.price = price;
     }
 
+    public void displayBikeInfo() {
+        System.out.println("modelNumber = " + modelNumber);
+        System.out.println("price = " + price);
+    }
+
 }
