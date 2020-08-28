@@ -12,5 +12,8 @@ public class Example2 {
     }
 }
 class A1 {
-
+    int j, k;
+    void displayA() {
+        System.out.println("j = " + j + ", k = " + k);
+    }
 }
