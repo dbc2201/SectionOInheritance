@@ -12,5 +12,6 @@ public class Example3 {
     }
 }
 class Bike {
-
+    private int idNumber;
+    public String modelName;
 }
