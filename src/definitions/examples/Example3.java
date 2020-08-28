@@ -27,7 +27,16 @@ class Bike {
         System.out.println("modelName = " + modelName);
         System.out.println("price = " + price);
     }
+
+    public int getIdNumber() {
+        return idNumber;
+    }
+
+    public String getModelName() {
+        return modelName;
+    }
 }
+
 
 
 
