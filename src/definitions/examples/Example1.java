@@ -12,5 +12,10 @@ public class Example1 {
     }
 }
 class Vehicle {
+    float speed;
+    float mileage;
 
+    void methodA() {
+
+    }
 }
