@@ -8,7 +8,10 @@ package definitions.examples.bike;
 
 public class Example4 {
     public static void main(String[] args) {
-
+        Bike myBike = new Bike(123, 50_000.0);
+        myBike.displayBikeInfo();
+        SuperBike mySuperBike = new SuperBike(456, 60_000.0, 120.0);
+        mySuperBike.displaySuperBikeInfo();
     }
 }
 class Bike {
@@ -26,10 +29,13 @@ class Bike {
     }
 }
 class SuperBike extends Bike {
-    public SuperBike(int modelNumber, double price) {
+    private double maxSpeed;
+    public SuperBike(int modelNumber, double price, double maxSpeed) {
         super(modelNumber, price);
+        this.maxSpeed = maxSpeed;
     }
     public void displaySuperBikeInfo() {
         super.displayBikeInfo();
+        System.out.println("maxSpeed = " + maxSpeed);
     }
 }
