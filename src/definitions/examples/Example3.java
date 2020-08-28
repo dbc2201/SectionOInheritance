@@ -14,4 +14,9 @@ public class Example3 {
 class Bike {
     private int idNumber;
     public String modelName;
+
+    public void setValues(int idNumber, String modelName) {
+        this.idNumber = idNumber;
+        this.modelName = modelName;
+    }
 }
