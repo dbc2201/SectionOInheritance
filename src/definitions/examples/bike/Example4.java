@@ -14,4 +14,10 @@ public class Example4 {
 class Bike {
     private int modelNumber;
     public double price;
+
+    public Bike(int modelNumber, double price) {
+        this.modelNumber = modelNumber;
+        this.price = price;
+    }
+
 }
