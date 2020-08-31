@@ -32,3 +32,10 @@ parameter list.
 child class. 
 
 ## Dynamic Method Dispatch
+It is a mechanism, by which, runtime polymorphism is achieved for overridden methods
+in Java.
+It is implemented through, the super class (parent class reference).
+A superclass reference can refer to an object of its subclass.
+Each subclass will have its own version or definition of the overridden method.
+The dynamic method dispatch mechanism will choose the right version of the method
+according to the definition of the overridden method.  
