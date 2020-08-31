@@ -30,3 +30,5 @@ by overriding it in the child class.
 parameter list.
 2. We can only override a method of the parent class, inside a 
 child class. 
+
+## Dynamic Method Dispatch
