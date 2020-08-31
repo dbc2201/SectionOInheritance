@@ -15,7 +15,7 @@ public class Example {
         Student student = new Student();
         TopperStudent topperStudent = new TopperStudent();
 
-        Human human1 = student;
+        Human human1 = topperStudent;
         human1.talk();
     }
 }
