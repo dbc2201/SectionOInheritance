@@ -15,8 +15,8 @@ public class Example {
 class Human {
 
 }
-
-class Student {
+// Student IS A type of Human.
+class Student extends Human {
 
 }
 
