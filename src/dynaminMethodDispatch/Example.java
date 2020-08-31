@@ -13,7 +13,9 @@ public class Example {
 }
 
 class Human {
-
+    public void talk() {
+        System.out.println("I am a human.");
+    }
 }
 // Student IS A type of Human.
 class Student extends Human {
