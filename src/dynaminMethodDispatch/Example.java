@@ -9,11 +9,14 @@ package dynaminMethodDispatch;
 public class Example {
     public static void main(String[] args) {
         Human human = new Human();
-        human.talk();
+        // We have created an object of the Human class, and
+        // we are storing the reference value of the object in a
+        // reference variable of the Human class.
         Student student = new Student();
-        student.talk();
         TopperStudent topperStudent = new TopperStudent();
-        topperStudent.talk();
+
+        Human human1 = human;
+        human1.talk();
     }
 }
 
