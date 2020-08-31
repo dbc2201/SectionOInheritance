@@ -8,12 +8,19 @@ package dynaminMethodDispatch;
 
 public class Example {
     public static void main(String[] args) {
-        Human human = new Human();
         // We have created an object of the Human class, and
         // we are storing the reference value of the object in a
         // reference variable of the Human class.
+        Human human = new Human();
         Student student = new Student();
         TopperStudent topperStudent = new TopperStudent();
+
+        // First, the reference variable of the superclass is created,
+        // then it was assigned the value of its subclass.
+        // The appropriate method version is selected by the compiler
+        // at runtime, i.e it selects the correct version of the method in
+        // the subclass of the object reference value, which was assigned to the
+        // superclass reference variable.
 
         Human human1 = topperStudent;
         human1.talk();
