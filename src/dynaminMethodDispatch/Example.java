@@ -19,7 +19,7 @@ public class Example {
 
 class Human {
     public void talk() {
-        System.out.println("I am a human.");
+        System.out.println("I am a Human.");
     }
 }
 
@@ -27,7 +27,8 @@ class Human {
 class Student extends Human {
     @Override
     public void talk() {
-        System.out.println("I am a Human, and also a Student.");
+        super.talk();
+        System.out.println("I am also a Student.");
     }
 }
 
@@ -35,6 +36,7 @@ class Student extends Human {
 class TopperStudent extends Student {
     @Override
     public void talk() {
-        System.out.println("I am a Human, a Student, and also a TopperStudent.");
+        super.talk();
+        System.out.println("I am also a TopperStudent.");
     }
 }
