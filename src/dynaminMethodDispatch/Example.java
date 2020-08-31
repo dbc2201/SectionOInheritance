@@ -19,3 +19,7 @@ class Human {
 class Student {
 
 }
+
+class TopperStudent {
+
+}
