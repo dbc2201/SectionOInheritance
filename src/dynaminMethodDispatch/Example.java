@@ -28,5 +28,8 @@ class Student extends Human {
 
 // TopperStudent IS A type of Student.
 class TopperStudent extends Student {
-
+    @Override
+    public void talk() {
+        System.out.println("I am a Human, a Student, and also a TopperStudent.");
+    }
 }
