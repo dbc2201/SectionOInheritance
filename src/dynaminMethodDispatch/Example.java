@@ -17,10 +17,15 @@ class Human {
         System.out.println("I am a human.");
     }
 }
+
 // Student IS A type of Human.
 class Student extends Human {
-
+    @Override
+    public void talk() {
+        System.out.println("I am a Human, and also a Student.");
+    }
 }
+
 // TopperStudent IS A type of Student.
 class TopperStudent extends Student {
 
