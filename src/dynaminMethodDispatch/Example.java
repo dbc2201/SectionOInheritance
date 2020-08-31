@@ -19,7 +19,7 @@ class Human {
 class Student extends Human {
 
 }
-
-class TopperStudent {
+// TopperStudent IS A type of Student.
+class TopperStudent extends Student {
 
 }
