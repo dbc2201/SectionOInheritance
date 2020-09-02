@@ -48,3 +48,6 @@ In Java, we have four types of program units:
 
 
 ## Abstract Classes
+There are some situations in which it is desired that a parent class will not initialize
+any objects of its own, but it will contain some methods/fields that can be 
+executed by a child class, with their own overridden versions.
