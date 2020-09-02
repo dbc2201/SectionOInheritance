@@ -20,6 +20,10 @@ interface Student {
     void study();
 }
 
+class Teacher {
+
+}
+
 public class Example {
     public static void main(String[] args) {
 
