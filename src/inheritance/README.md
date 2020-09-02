@@ -39,3 +39,12 @@ A superclass reference can refer to an object of its subclass.
 Each subclass will have its own version or definition of the overridden method.
 The dynamic method dispatch mechanism will choose the right version of the method
 according to the definition of the overridden method.  
+
+In Java, we have four types of program units:
+1. A Class (a definition class, or an execution class).
+2. An Abstract Class
+3. An Interface
+4. An Enum
+
+
+## Abstract Classes
