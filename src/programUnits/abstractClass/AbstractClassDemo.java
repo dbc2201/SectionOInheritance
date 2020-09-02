@@ -16,4 +16,8 @@ class Demo {
     public void display() {
         System.out.println("Demo class (parent).");
     }
+
+    public int sum(int x, int y) {
+        return x + y;
+    }
 }
