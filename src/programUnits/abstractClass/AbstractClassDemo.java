@@ -7,4 +7,7 @@
 package programUnits.abstractClass;
 
 public class AbstractClassDemo {
+    public static void main(String[] args) {
+
+    }
 }
