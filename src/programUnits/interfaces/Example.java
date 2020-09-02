@@ -20,7 +20,7 @@ interface Student {
     void study();
 }
 
-class Teacher {
+abstract class Teacher {
 
 }
 
