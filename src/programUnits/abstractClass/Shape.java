@@ -9,4 +9,9 @@ package programUnits.abstractClass;
 abstract public class Shape {
     private double length;
     private int numberOfSides;
+
+    public Shape(double length, int numberOfSides) {
+        this.length = length;
+        this.numberOfSides = numberOfSides;
+    }
 }
