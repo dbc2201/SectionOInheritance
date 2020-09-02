@@ -24,6 +24,24 @@ abstract class Teacher {
     abstract public void teach();
 }
 
+class Divyansh extends Teacher implements Human, Student {
+
+    @Override
+    public void talk() {
+
+    }
+
+    @Override
+    public void study() {
+
+    }
+
+    @Override
+    public void teach() {
+
+    }
+}
+
 public class Example {
     public static void main(String[] args) {
 
