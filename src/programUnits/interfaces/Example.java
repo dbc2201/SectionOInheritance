@@ -7,7 +7,9 @@
 package programUnits.interfaces;
 
 public class Example {
+    public static void main(String[] args) {
 
+    }
 }
 
 interface Human {
