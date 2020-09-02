@@ -15,5 +15,13 @@ abstract public class Shape {
         this.numberOfSides = numberOfSides;
     }
 
+    public double getLength() {
+        return length;
+    }
+
+    public int getNumberOfSides() {
+        return numberOfSides;
+    }
+
     abstract double findArea();
 }
