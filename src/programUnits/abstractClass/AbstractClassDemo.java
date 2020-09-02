@@ -22,6 +22,6 @@ class Demo {
     }
 }
 
-class Adder {
+class Adder extends Demo {
 
 }
