@@ -6,5 +6,14 @@
  * */
 package programUnits.abstractClass;
 
-public class Circle {
+public class Circle extends Shape {
+
+    public Circle(double length, int numberOfSides) {
+        super(length, numberOfSides);
+    }
+
+    @Override
+    double findArea() {
+        return 0;
+    }
 }
