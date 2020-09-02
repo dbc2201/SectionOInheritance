@@ -14,6 +14,10 @@ public class Example1 {
 
 abstract class Vehicle {
     abstract public void accelerate();
+
+    public void display() {
+        System.out.println("Vehicle class.");
+    }
 }
 
 class Car extends Vehicle {
