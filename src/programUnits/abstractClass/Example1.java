@@ -26,6 +26,6 @@ class Bike extends Vehicle {
 
 }
 
-class AutoRickshaw {
+class AutoRickshaw extends Vehicle {
 
 }
