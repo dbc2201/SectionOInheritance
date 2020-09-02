@@ -7,4 +7,5 @@
 package programUnits.abstractClass;
 
 abstract public class Shape {
+    private double length;
 }
