@@ -11,3 +11,7 @@ public class AbstractClassDemo {
 
     }
 }
+
+class Demo {
+
+}
