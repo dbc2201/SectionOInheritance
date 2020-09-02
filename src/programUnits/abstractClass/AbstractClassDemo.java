@@ -23,5 +23,8 @@ class Demo {
 }
 
 class Adder extends Demo {
-
+    @Override
+    public void display() {
+        System.out.println("Adder class (child).");
+    }
 }
