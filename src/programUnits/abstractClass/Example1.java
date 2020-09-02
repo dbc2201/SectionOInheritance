@@ -22,6 +22,6 @@ class Car extends Vehicle {
 
 }
 
-class Bike {
+class Bike extends Vehicle {
 
 }
