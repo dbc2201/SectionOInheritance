@@ -21,3 +21,7 @@ class Demo {
         return x + y;
     }
 }
+
+class Adder {
+
+}
