@@ -12,10 +12,9 @@ public class AbstractClassDemo {
     }
 }
 
-class Demo {
-    public void display() {
-        System.out.println("Demo class (parent).");
-    }
+// abstract is something that is not properly defined.
+abstract class Demo {
+    abstract public void display();
 
     public int sum(int x, int y) {
         return x + y;
