@@ -13,5 +13,7 @@ public class AbstractClassDemo {
 }
 
 class Demo {
-
+    public void display() {
+        System.out.println("Demo class (parent).");
+    }
 }
