@@ -6,12 +6,15 @@
  * */
 package programUnits.interfaces;
 
+interface Human {
+    /**
+     * This method allows a Human to talk.
+     */
+    void talk();
+}
+
 public class Example {
     public static void main(String[] args) {
 
     }
-}
-
-interface Human {
-
 }
