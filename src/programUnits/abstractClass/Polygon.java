@@ -6,5 +6,13 @@
  * */
 package programUnits.abstractClass;
 
-public class Polygon {
+public class Polygon extends Shape {
+    public Polygon(double length, int numberOfSides) {
+        super(length, numberOfSides);
+    }
+
+    @Override
+    double findArea() {
+        return 0;
+    }
 }
