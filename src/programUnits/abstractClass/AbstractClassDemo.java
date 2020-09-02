@@ -27,4 +27,9 @@ class Adder extends Demo {
     public void display() {
         System.out.println("Adder class (child).");
     }
+
+    @Override
+    public int sum(int x, int y) {
+        return x + y + 1;
+    }
 }
