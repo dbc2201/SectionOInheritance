@@ -14,3 +14,7 @@ public interface One {
 
     // For Methods of the Interface.
 }
+
+class Example {
+
+}
