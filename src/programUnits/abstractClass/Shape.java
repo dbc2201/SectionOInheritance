@@ -6,5 +6,5 @@
  * */
 package programUnits.abstractClass;
 
-public class Shape {
+abstract public class Shape {
 }
