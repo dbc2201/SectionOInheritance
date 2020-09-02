@@ -12,20 +12,28 @@ public class Example1 {
     }
 }
 
-class Vehicle {
-    public void accelerate() {
-
-    }
+abstract class Vehicle {
+    abstract public void accelerate();
 }
 
 class Car extends Vehicle {
-
+    // implementing the abstract method of an abstract class.
+    @Override
+    public void accelerate() {
+        System.out.println("Car accelerating...");
+    }
 }
 
 class Bike extends Vehicle {
-
+    @Override
+    public void accelerate() {
+        System.out.println("Bike accelerating...");
+    }
 }
 
 class AutoRickshaw extends Vehicle {
-
+    @Override
+    public void accelerate() {
+        System.out.println("AutoRickshaw accelerating...");
+    }
 }
