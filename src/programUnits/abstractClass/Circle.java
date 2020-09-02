@@ -14,6 +14,6 @@ public class Circle extends Shape {
 
     @Override
     double findArea() {
-        return 0;
+        return Math.PI * Math.pow(getLength(), 2.0);
     }
 }
