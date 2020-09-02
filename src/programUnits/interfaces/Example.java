@@ -21,7 +21,7 @@ interface Student {
 }
 
 abstract class Teacher {
-
+    abstract public void teach();
 }
 
 public class Example {
