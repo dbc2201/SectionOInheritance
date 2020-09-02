@@ -11,8 +11,13 @@ public class Polygon extends Shape {
         super(length, numberOfSides);
     }
 
+    // Formula for finding the area of a polygon?
+
+    // number of sides * side ^ 2 / (tan (PI / number of sides))
+
     @Override
     double findArea() {
-        return 0;
+        return (getNumberOfSides() * Math.pow(getLength(), 2.0))
+                / (Math.tan(Math.PI / getNumberOfSides()));
     }
 }
