@@ -14,4 +14,6 @@ abstract public class Shape {
         this.length = length;
         this.numberOfSides = numberOfSides;
     }
+
+    abstract double findArea();
 }
