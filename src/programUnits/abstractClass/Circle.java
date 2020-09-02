@@ -10,6 +10,9 @@ public class Circle extends Shape {
 
     public Circle(double length, int numberOfSides) {
         super(length, numberOfSides);
+        // super is a keyword that can access the members of the parent class.
+        // super() <- this will call the constructor of the parent class.
+        // super.methodName() <- this will call the methodName() method of the parent class.
     }
 
     @Override
