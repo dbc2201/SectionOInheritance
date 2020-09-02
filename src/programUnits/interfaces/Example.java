@@ -7,4 +7,9 @@
 package programUnits.interfaces;
 
 public class Example {
+
+}
+
+interface Human {
+
 }
