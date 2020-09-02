@@ -13,6 +13,13 @@ interface Human {
     void talk();
 }
 
+interface Student {
+    /**
+     * This method helps a Student to study.
+     */
+    void study();
+}
+
 public class Example {
     public static void main(String[] args) {
 
