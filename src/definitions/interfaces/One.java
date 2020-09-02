@@ -16,5 +16,8 @@ public interface One {
 }
 
 class Example {
-
+    public int number = 4;
+    private double radius = 2.05;
+    protected float marks = 6.1f;
+    char gender = 'M';
 }
